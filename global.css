@@ -1,0 +1,132 @@
+body{
+	font-family: arial,sans-serif;
+	font-size: 13px;
+}
+#titadv{
+	color:#db3025;
+	font-family: arial, sans-serif;
+	font-weight: lighter;
+	margin: 10px;
+	margin-left: 25px;
+	margin-bottom: 30px;
+	font-size: 20px;
+
+}
+hr{
+	margin-bottom: 45px;
+}
+.links{
+	text-align: right;
+	font-size: 13px;
+	margin-right: 30px;
+	margin-top: 25px; 
+	font-family: arial,sans-serif;
+}
+
+.links a{
+	text-decoration:none;
+	margin-right: 10px;
+	margin-left: 10px;
+}
+center{
+	margin-top: 130px;
+}
+.search{
+	border:1px;
+	border-style:solid;
+	width: 560px;
+	height: 41px;
+	border-color: #d9d9d9;
+	border-radius: 25px;
+	font-size: 19px;
+	margin-bottom: 15px;
+	margin-top: 5px;
+	padding-left: 20px;
+	background-image: url("images/lupa.jpg");
+	background-repeat: no-repeat;
+	text-indent: 30px;
+    display: inline-block;
+    overflow: hidden;
+
+}
+.search:focus{
+
+	outline:none;
+		box-shadow: 0px 2px 10px 0px rgba(224,224,224,1);
+}
+.search:hover{
+	box-shadow: 0px 2px 10px 0px rgba(224,224,224,1);
+}
+
+#advbutton{
+	font-size: 13px;
+	color: #FFFFFF;
+	font-weight: 480;
+	background: #5e96ee;
+	padding-bottom: 5px;
+	padding-right: 18px;
+	padding-left: 18px;
+	padding-top: 5px;
+	border-radius: 3px;
+	margin-top: 15px;
+	border:2px;
+	float: right;
+}
+
+#advbutton:hover{
+	background: #5787d3;
+}
+
+.advbox{
+	width: 572px;
+	margin-top: 17px;
+	height: 24px;
+	margin-right: 5px;
+	border-color:#c0c0c0;
+	border-width: 1px;
+	border-style: solid;
+}
+.advbox:focus{
+	outline-color: blue;
+	outline-width: 1px;
+	border-width: 2px;
+	border-style: solid;
+	outline-style: solid;
+	margin-top: 15px;
+	margin-right: 3px;
+}
+table{
+	margin-left: 25px;
+}
+.buttonstyle{
+	font-size: 14px;
+	border-style: all;
+	background-color: #f4f4f4;
+	padding: 11px;
+	padding-right: 15px;
+	padding-left: 15px;
+	margin: 3px;
+	margin-top: 12px;
+	color: #5f6368;
+	border-width: 0px;
+	border-radius: 4px;
+}
+.buttonstyle:hover{
+	border-style: solid;
+	padding: 10px;
+	padding-right: 14px;
+	padding-left: 14px;
+	border-width: 1px;
+	border-color: #c6c6c6;
+}
+.rightadv{
+	font-size: 11px;
+}
+.buttonstyle:focus{
+	outline-color: blue;
+	outline-width: 1px;
+	border-width: 0px;
+	border-style: solid;
+	outline-style: solid;
+	margin-right: 5px;
+}
